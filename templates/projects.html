@@ -1,0 +1,167 @@
+{% extends "layout.html" %}
+
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}" />
+<link rel="stylesheet" href="{{ url_for('static', filename='css/projects.css') }}" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+{% endblock %}
+
+{% block content %}
+
+<header>
+    <div class="header-container">
+        <div class="header-title">
+            <h2>PROJECTS</h2>
+        </div>
+        <div class="header-desc">
+            <p>Compilation of my training and projects</p>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="section-container">
+        <div class="row">
+            <div class="row-header">
+                <h2 class="reveal">Web and App Development</h2>
+            </div>
+            <div class="col">
+                <div class="card reveal1">
+                    <div class="card-image">
+                        <img src="/static/images/yuux.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>YuuX</h4>
+                        <p>A Wellness and Time Management Tool for Students and Individuals</p>
+                        <div class="links">
+                            <a href="https://github.com/nkknz/yuuX">Repository</a>
+                            <a href="https://nkknz.github.io/yuuX/">Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card reveal2">
+                    <div class="card-image">
+                        <img src="/static/images/bonbonclouds.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>Bonbon Clouds</h4>
+                        <p>An E-Commerce Project in my Web Development Course</p>
+                        <div class="links">
+                            <a href="https://github.com/nkknz/bonbonclouds" target="_blank">Repository</a>
+                            <a href="https://nkknz.github.io/bonbonclouds/" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card reveal3">
+                    <div class="card-image">
+                        <img src="/static/images/flutter-training.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>Flutter Training Projects</h4>
+                        <p>A compilation of my flutter training courses</p>
+                        <div class="links">
+                            <a href="https://github.com/nkknz/Flutter_Dart_Training">Repository</a>
+                            <a href="#" class="disabled">Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row-header">
+                <h2>Design Projects</h2>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/static/images/DTR.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>Title</h4>
+                        <p>Description</p>
+                        <div class="links">
+                            <a href="https://www.figma.com/proto/D4vBKhO9EKdOyc8924gAB5/DTR?node-id=0-1&t=JJQnvIC28MxGxghM-1"
+                                target="_blank">Figma
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/static/images/Study Website_App.png">
+                    </div>
+                    <div class=" card-text">
+                        <h4>Title</h4>
+                        <p>Description</p>
+                        <div class="links">
+                            <a href="https://www.figma.com/proto/sLvNJrYWnroOTyrusLIvoS/Study-Website%2FApp?node-id=0-1&t=d3ZjiHAQ1wQJ8L4C-1"
+                                target="_blank">Figma
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/static/images/Portfolio 1 Design.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>Title</h4>
+                        <p>Description</p>
+                        <div class="links">
+                            <a href="https://www.figma.com/proto/9cWaXFDh2eLGeiG6S7XWS4/Portfolio-1-Design?node-id=0-1&t=yHZa0nMUpHBXaO71-1"
+                                target="_blank">Figma
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/static/images/figma-1.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>Title</h4>
+                        <p>Description</p>
+                        <div class="links">
+                            <a href="https://www.figma.com/proto/J9MlCn6ebRnDEKSMPokNid/E-Commerce-Index?node-id=0-1&t=eVxWL108qTVTX7pP-1"
+                                target="_blank">Figma Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/static/images/figma-2.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>Title</h4>
+                        <p>Description</p>
+                        <div class="links">
+                            <a href="https://www.figma.com/proto/niYbFkvnZJcO3RpMarxQ8V/Med-Sched-%26-Supp?node-id=0-1&t=RgD3p1iN9QbqcyTy-1"
+                                target="_blank">Figma
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+
+                    </div>
+                    <div class="card-text">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="{{ url_for('static', filename='js/projects.js') }}"></script>
+<script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+
+{% endblock content %}

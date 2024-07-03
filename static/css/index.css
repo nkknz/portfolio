@@ -1,0 +1,676 @@
+/* Palette 1: */
+/* https://coolors.co/8b322c-dc5746-efdabd-f0e3d0-e1cfb7-bfa783-37342d-211f1c */
+/* Palette 2: */
+/* https://coolors.co/d54851-ef9a49-fffcc7-4da494-59322b */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+    /* font-family: "Zen Old Mincho", serif; for headers */
+    color: #222831;
+    
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F0E3D0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+header {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
+    overflow: hidden;
+    /* background-color: #222831; */
+    /* background: rgb(118,171,174);
+    background: linear-gradient(350deg, rgba(118,171,174,1) 0%, rgba(67,86,93,1) 22%, rgba(48,53,62,1) 44%, rgba(34,40,49,1) 65%); */
+    background-color: #F5E7D3;
+    border-bottom: 5px solid #37342D;
+}
+
+.header-text {
+    width: 50%;
+    padding:  0 0 0 7%;
+    overflow: visible;
+}
+
+.header-text h2 {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #37342D;
+    padding: 0 0 2%;
+    letter-spacing: 7px;
+}
+
+.header-text p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #37342D;
+    line-height: 1.5;
+}
+
+.header-text .header-icons {
+    width: 50%;
+    padding: 5% 0;
+    display: flex;
+}
+
+.header-icons a {
+    flex-basis: 20%;
+    text-decoration: none;
+    color: #8B322C;
+}
+
+
+.header-text div {
+    width: 50%;
+    display: flex;
+    padding: 3% 0;
+}
+
+/* .header-text div a {
+    display: flex;
+    text-decoration: none;
+    padding: 5% 10%;
+    background-color: #8B322C;
+    color: #d9d9d9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px #211F1C;
+    transition: 0.3s ease-in-out;
+}
+
+.header-text div a:hover {
+    background-color: #dc5746;
+}
+
+.header-text div a p {
+    color: #d9d9d9;
+}
+
+.header-text div a span {
+    color: #d9d9d9;
+    padding: 0 0 0 5px;
+} */
+
+.header-image {
+    width: 50%;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    /* transition: 0.3s ease-in-out;
+    cursor: pointer; */
+    margin: auto;
+    padding: 0 7%;
+}
+
+
+.header-image img {
+    width: 100%;
+    border: 5px solid #37342D;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        min-height: 50svh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-text div {
+        width: 50%;
+        display: flex;
+        padding: 5% 0;
+        margin: auto;
+    }
+    
+    .header-text div a {
+        margin: auto;
+    }
+
+    .header-image {
+        padding: 4% 0;
+    }
+
+    .header-image img {
+        width: 100%;
+    }
+
+    .header-text {
+        width: 80%;
+        text-align: center;
+        padding: 0 0 2%;
+        margin: auto;
+        place-items: center;
+        align-items: center;
+    }
+
+    .header-text h2 {
+        font-size: 30px;
+    }
+
+    .header-text p {
+        font-size: 15px;
+    }
+
+    .header-icons {
+        margin: auto;
+    }
+
+    .header-icons a {
+        flex-basis: 30%;
+    }
+}
+
+
+
+.about-me {
+    padding: 2% 0;
+    min-height: 30vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFDABD;
+    border-bottom: 5px solid #37342D;
+}
+
+.about-me-container {
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-me-container h4 {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 2% 0;
+}
+
+.about-me-container .about-me-desc p{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+.about-me-download .download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.about-me-container .about-me-button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 3% 0 0;
+    justify-content: center;
+}
+
+.about-me-button .resume {
+    margin: 0 2%;
+    text-decoration: none;
+    display: flex;
+    background-color: #8B322C;
+    color: #d9d9d9;
+    padding: 2% 3%;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px #211F1C;
+    transition: 0.3s ease-in-out;
+}
+
+.about-me-button .download {
+    margin: 0 2%;
+    text-decoration: none;
+    display: flex;
+    color: #37342D;
+    border: 2px solid #211F1C;
+    padding: 2% 3%;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px #211F1C;
+    transition: 0.3s ease-in-out;
+}
+
+.about-me-button .resume:hover {
+    background-color: #dc5746;
+}
+
+.about-me-button .download:hover {
+    background-color: #EACEA7;
+}
+
+.about-me-button .resume p {
+    color: #d9d9d9;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.about-me-button .download p {
+    color: #211F1C;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.about-me-button .resume span {
+    color: #d9d9d9;
+    padding: 0 0 0 5px;
+}
+
+.about-me-button .download span {
+    color: #211F1C;
+    padding: 0 0 0 5px;
+}
+
+
+@media (max-width: 768px) {
+    .about-me {
+        display: flex;
+        place-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-me-container {
+        width: 80%;
+        display: grid;
+        place-items: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-me-container .about-me-desc p{
+        padding: 0;
+    }
+    
+    .about-me-container .about-me-button {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        padding: 5% 0;
+        justify-content: center;
+    }
+
+    .about-me-container h4 {
+        font-size: 30px;
+    }
+    
+    .about-me-container .about-me-desc p{
+        font-size: 15px;
+    }
+}
+
+.projects {
+    width: 100%;
+    min-height: 85vh;
+    border-bottom: 5px solid #37342D;
+}
+
+.project-title {
+    width: 90%;
+    margin: auto;
+    padding: 3% 0;
+}
+
+.project-title h2 {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.project-container {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+.divider {
+    flex-basis: 33.33%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider .card{
+    width: 95%;
+    height: 40vh;
+    margin: auto;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid #37342D; */
+    background-color: #8B322C;
+    box-shadow: 5px 5px 0px 5px #37342D;
+}
+
+
+.card-content {
+    padding: 0 3%;
+}
+
+.card-content .title h4{
+    font-weight: 500;
+    font-size: 25px;
+    color: #d9d9d9;
+}
+
+.card-content .body {
+    padding: 3% 0;
+}
+
+.card-content .body-text p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    padding: 0 0 3% ;
+    opacity: 0.8;
+}
+
+.card-content .body a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content .body a p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #F0E3D0;
+    text-decoration: underline;
+}
+
+.card-content .body a span{
+    font-weight: 300;
+    font-size: 18px;
+    color: #EACEA7;
+}
+
+.project-footer {
+    width: 100%;
+    margin: auto;
+    padding: 4% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-footer a {
+    text-decoration: none;
+    display: flex;
+    background-color: #8B322C;
+    color: #d9d9d9;
+    padding: 1% 2%;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px #211F1C;
+    transition: 0.3s ease-in-out;
+}
+
+.project-footer a:hover {
+    background-color: #dc5746;
+}
+
+.project-footer a p {
+    color: #d9d9d9;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.project-footer a span {
+    color: #d9d9d9;
+    padding: 0 0 0 5px;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        padding: 3% 0;
+    }
+    .project-title {
+        padding: 2% 0 0;
+        text-align: center;
+    }
+    .project-container {
+        display: block;
+        min-height: 80vh;
+        border: none;
+    }
+
+    .divider {
+        text-align: center;
+        border: none;
+        padding: 5% 0;
+    }
+
+    .divider .card{
+        width: 80%;
+        height: 40vh;
+        margin: auto;
+        padding: 0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #37342D;
+        background-color: #8B322C;
+    }
+
+    .project-footer {
+        border: none;
+    }
+
+    .project-footer a {
+        padding: 2% 4%;
+    }
+}
+
+.skillset{
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillset-title {
+    width: 90%;
+    margin: auto;
+    padding: 3% 0 0;
+}
+
+.skillset-title h2 {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skillset-container {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+
+.skillset-container .grids .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillset-container .grids .col .row {
+    padding: 2%;
+}
+
+.skillset-container .grids .row .outer-circle {
+    width: 75px;
+    height: 75px;
+    background-color: #F5E7D3;
+    border: 3px solid #8B322C;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.skillset-container .grids .row .outer-circle .circle-divider {
+    width: 100%;
+    height: 75px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    place-content: center;
+}
+
+.skillset-container .grids .row .inner-circle {
+    width: 65px;
+    height: 65px;
+    background-color: #8B322C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.skillset-container .grids .row .inner-circle img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.skillset-footer {
+    width: 100%;
+    margin: auto;
+    padding: 4% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillset-footer a {
+    text-decoration: none;
+    display: flex;
+    background-color: #8B322C;
+    color: #d9d9d9;
+    padding: 1% 2%;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px #211F1C;
+    transition: 0.3s ease-in-out;
+}
+
+.skillset-footer a:hover {
+    background-color: #dc5746;
+}
+
+.skillset-footer a p {
+    color: #d9d9d9;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.skillset-footer a span {
+    color: #d9d9d9;
+    padding: 0 0 0 5px;
+}
+
+
+@media (max-width: 768px) {
+    .skillset-container .grids .row .outer-circle {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .skillset-container .grids .row .outer-circle .circle-divider {
+        width: 100%;
+        height: 55px;
+    }
+
+    .skillset-container .grids .row .inner-circle {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+/*ON SCROLL ANIMATION*/
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+  
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Horizontal Reveal Card 1 */
+.reveal-side {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  
+.reveal-side.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Horizontal Reveal Card 2 */
+.reveal-side2 {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: all 1s ease;
+    transition-delay: 0.3s;
+  }
+  
+.reveal-side2.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Horizontal Reveal Card 3 */
+.reveal-side3 {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: all 1s ease;
+    transition-delay: 0.6s;
+  }
+  
+.reveal-side3.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+  
