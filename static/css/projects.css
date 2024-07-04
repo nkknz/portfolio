@@ -57,13 +57,12 @@ header .header-container {
     width: 90%;
     margin: auto;
     padding: 0;
-    min-height: 89vh;
+    min-height: 90vh;
 }
 
 .section-container .row {
     width: 100%;
-    min-height: 50vh;
-    padding: 2% 0 3% 0;
+    padding: 3% 0 0 0;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -71,7 +70,7 @@ header .header-container {
 }
 
 .row .row-header {
-    padding: 3% 0 3% 0;
+    padding: 0 0 2% 0;
 }
 
 .row-header h2 {
@@ -92,11 +91,11 @@ header .header-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 0 3%;
+    padding: 0 0 5%;
 }
 
 .section-container .row .card {
-    width: 300px;
+    width: 30%;
     height: auto;
     border-radius: 10px;
     display: flex;

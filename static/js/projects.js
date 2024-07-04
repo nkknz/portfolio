@@ -1,16 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
+  var element = document.querySelector('.reveal');
+  setTimeout(function() {
+      element.classList.add('active');
+  }, 100); // Delay to ensure the transition works
+});
+
+document.addEventListener("DOMContentLoaded", function() {
     var element = document.querySelector('.reveal1');
     setTimeout(function() {
         element.classList.add('active');
     }, 100); // Delay to ensure the transition works
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    var element = document.querySelector('.reveal');
-    setTimeout(function() {
-        element.classList.add('active');
-    }, 100); // Delay to ensure the transition works
-});
 
 document.addEventListener("DOMContentLoaded", function() {
     var element = document.querySelector('.reveal2');
@@ -74,9 +75,6 @@ function revealSide3() {
     }
 }
   
-
-
-
 window.addEventListener('scroll', revealSide);
 window.addEventListener('scroll', revealSide2);
 window.addEventListener('scroll', revealSide3);

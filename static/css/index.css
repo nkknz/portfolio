@@ -22,7 +22,7 @@ body {
 
 header {
     width: 100%;
-    height: 88vh;
+    height: 100vh;
     display: flex;
     margin: auto;
     padding: 0;
@@ -326,8 +326,11 @@ header {
 
 .projects {
     width: 100%;
-    min-height: 85vh;
+    min-height: 100vh;
     border-bottom: 5px solid #37342D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .project-title {
@@ -339,7 +342,7 @@ header {
 .project-title h2 {
     font-family: "Zen Old Mincho", serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .project-container {
@@ -494,7 +497,7 @@ header {
 
 .skillset{
     width: 100%;
-    min-height: 85vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -510,7 +513,7 @@ header {
 .skillset-title h2 {
     font-family: "Zen Old Mincho", serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .skillset-container {
