@@ -1,0 +1,226 @@
+{% extends "layout.html" %}
+
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}" />
+<link rel="stylesheet" href="{{ url_for('static', filename='css/skillsets.css') }}" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+{% endblock %}
+
+{% block content %}
+
+<header>
+    <div class="header-container">
+        <div class="header-title">
+            <h2>SKILLSETS</h2>
+        </div>
+        <div class="header-desc">
+            <p>Various tech stack and designing tools I use</p>
+        </div>
+    </div>
+</header>
+
+
+<section>
+    <div class="section-container">
+        <h2 class="section-header">CODING AND PROGRAMMING</h2>
+        <div class="table-container">
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>HTML</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-html-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>CSS</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-css-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Bootstrap</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-bootstrap-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Javascript</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-javascript-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Java</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-java-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-container">
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Python</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-python-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>PHP</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-php-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Flutter/Dart</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-flutter-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>VS Code</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-visual-studio-code-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Android Studio</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-android-studio-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container">
+        <h2 class="section-header">MULTIMEDIA</h2>
+        <div class="table-container">
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Photoshop</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-html-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Figma</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-css-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table-container-header">
+                    <h2>Canva</h2>
+                </div>
+                <div class="table-element">
+                    <div class="outer-circle">
+                        <div class="circle-divider">
+                            <div class="inner-circle">
+                                <img src="/static/images/icons8-bootstrap-100.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="{{ url_for('static', filename='js/projects.js') }}"></script>
+<script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+
+{% endblock content %}
