@@ -35,6 +35,7 @@ header .header-container {
     width: 70%;
     margin: auto;
     padding: 0;
+    text-align: center;
 }
 
 .header-container h2 {
@@ -43,6 +44,7 @@ header .header-container {
     font-size: 40px;
     letter-spacing: 10px;
     padding: 2% 0;
+    text-align: center;
 }
 
 .header-container p {
@@ -77,6 +79,7 @@ section {
 .section-container .section-header {
     font-size: 50px;
     padding: 0 0 2%;
+    text-align: center;
 }
 
 .section-container .table-container {
@@ -166,4 +169,36 @@ section {
  .inner-circle img{
     width: 40px;
     height: 40px;
+}
+
+@media  (max-width: 768px) {
+    .section-container .section-header {
+        font-size: 30px;
+    }
+
+    .table-container .table {
+        width: 17%;
+    }
+
+    .table-container-header h2 {
+        font-size: 10px;
+        padding: 3% 0;
+        color: #efefef;
+    }
+
+    .outer-circle {
+        width: 35px;
+        height: 35px;
+    }
+    
+    
+    .inner-circle {
+        width: 25px;
+        height: 25px;
+    }
+    
+     .inner-circle img{
+        width: 20px;
+        height: 20px;
+    }
 }

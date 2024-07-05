@@ -606,6 +606,9 @@ header {
 
 
 @media (max-width: 768px) {
+    .skillset-title {
+        text-align: center;
+    }
     .skillset-container .grids .row .outer-circle {
         width: 55px;
         height: 55px;
