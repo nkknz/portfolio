@@ -137,6 +137,27 @@ header .header-container {
     width: 70%;
 }
 
+@media (max-width: 768px){
+    .section-container .row .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container .row .col .card {
+        width: 90%;
+        margin: 3% 0;
+    }
+
+    .card-text .links {
+        width: 100%;
+    }
+    .links a {
+        font-size: 1rem;
+    }
+}
+
 .links a {
     width: 50%;
     text-decoration: none;
